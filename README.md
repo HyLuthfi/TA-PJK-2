@@ -30,9 +30,7 @@ Menghubungkan semua perangkat sesuai dengan topologi yang telah ditentukan mengg
 ### 3. Ping Test Pertama (Sebelum Konfigurasi Router)
 Melakukan ping dari PC-A ke PC-B yang menghasilkan kegagalan karena router belum dikonfigurasi.
 
-**Screenshot:**
-
-![Ping Gagal](screenshot-ping-gagal.png)
+![Ping Gagal]
 
 **Penjelasan:** Ping gagal karena router yang menjadi penghubung antar subnet belum dikonfigurasi. Paket tidak dapat di-routing antara jaringan 192.168.1.0 dan 192.168.0.0.
 
@@ -58,8 +56,6 @@ Konfigurasi yang dilakukan pada switch:
 Melakukan ping dari PC-A ke PC-B yang menghasilkan keberhasilan setelah router dikonfigurasi.
 
 **Screenshot:**
-
-![Ping Berhasil](screenshot-ping-berhasil.png)
 
 **Penjelasan:** Ping berhasil karena router sudah dikonfigurasi dengan benar. Router berfungsi sebagai gateway yang menghubungkan kedua subnet dan meneruskan paket data antara PC-A dan PC-B.
 
